@@ -1,6 +1,6 @@
 ## Concatenar github con nuestro equipo local 
 
-Vamos a configurar nuestro equipo local para que podamos tener sincronizado nuestros repositorios contra github.
+Vamos a configurar nuestro equipo local para que podamos tener sincronizado nuestros repositorios contra [github](https://github.com "github").
 
 
 ##### Instalamos git
@@ -19,7 +19,7 @@ Creamos un directorio de trabajo
 ```
 $ mkdir github-local
 ```
-Creamos una llave para copiarla en https://github.com para que exista la relación confianza con nuestro equipo local.
+Creamos una llave para copiarla en [github](https://github.com "github") para que exista la relación confianza con nuestro equipo local.
 ```
 $ ssh-keygen -t rsa -C "cgomezn.stack@gmail.com"
 
@@ -58,7 +58,7 @@ m+w73uMCdy7H4hXiTrSqjFeTlE1e/7fJGMBVNX6qJVYomrcR+haRD+EitUkxWRr2hKtLr36F6FP17JFo
 
 ```
 
-En https://github.com nos registramos y creamos un repositorio.
+En [github](https://github.com "github") nos registramos y creamos un repositorio.
 
 ![Texto alternativo](images/Selección_001.jpg "Inicio github")
 
@@ -70,14 +70,14 @@ Esta es la ruta de nuestro repositorio
 
 ![Texto alternativo](images/Selección_004.jpg "Ruta repositorio github")
 
-Nos vamos a  https://github.com y en la parte superior buscamos el menu de **Setting**, seleccionamos **SSH and GPG keys** y al lado pulsamos **New SSH key**, en **title** colocamos un titulo que permita identificar cual es el equipo y en **Key** colocamos el contenido copiado anteriormente con el comando "cat /home/cgome1/.ssh/id_rsa.pub"
+Nos vamos a  [github](https://github.com "github") y en la parte superior buscamos el menu de **Setting**, seleccionamos **SSH and GPG keys** y al lado pulsamos **New SSH key**, en **title** colocamos un titulo que permita identificar cual es el equipo y en **Key** colocamos el contenido copiado anteriormente con el comando "cat /home/cgome1/.ssh/id_rsa.pub"
 
 ![Texto alternativo](images/Selección_005.jpg "Setting github")
 
 ![Texto alternativo](images/Selección_007.jpg "SSH key github")
 
 
-Ahora en nuestro directorio de trabajo y en donde estará nuestro repositorio concatenado con el que esta publicado den github.
+Ahora en nuestro directorio de trabajo y en donde estará nuestro repositorio concatenado con el que esta publicado den [github](https://github.com "github").
 ```
 $ git init
 ```
@@ -97,19 +97,19 @@ Hacemos el comentario sobre los archivos agregados.
 $ git commit -m "Actualizar"
 ```
 
-Debemos tener la ruta de nuestro repositorio en https://github:
+Debemos tener la ruta de nuestro repositorio en [github](https://github.com "github"):
 
 
 Procedemos a indicarle a git cual sera el origen del repositorio remoto 
 ```
 git remote add origin https://github.com/cgomeznt/github-local.git
 ```
-Si ya tenemos alguna información en el repositorio de github hacemos primero, para hacer el merge.
+Si ya tenemos alguna información en el repositorio de [github](https://github.com "github") hacemos primero, para hacer el merge.
 ```
 git pull https://github.com/cgomeznt/github-local.git
 ```
 
-Ahora subimos los cambios de nuestro local hacia el repositorio en github, coloca tu usuario y clave de github.
+Ahora subimos los cambios de nuestro local hacia el repositorio en [github](https://github.com "github"), coloca tu usuario y clave de [github](https://github.com "github").
 ```
 $ git push origin master
 ```
@@ -119,7 +119,7 @@ Felicitaciones ya tiene github concatenado con su equipo en local ...!!!
 ![Texto alternativo](images/Selección_008.jpg "SSH key github")
 
 
-Luego para tener actualizado github con su repositorio despues que agregue, modifique o eliminie archivos, seria (esto es muy basico, hay más)
+Luego para tener actualizado [github](https://github.com "github") con su repositorio despues que agregue, modifique o eliminie archivos, seria (esto es muy basico, hay más)
 ```
 $ git add *
 $ git commit -m "Actualizar"
