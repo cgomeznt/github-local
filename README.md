@@ -116,6 +116,9 @@ $ git push origin master
 
 Felicitaciones ya tiene github concatenado con su equipo en local ...!!!
 
+![Texto alternativo](images/Selección_008.jpg "SSH key github")
+
+
 Luego para tener actualizado github con su repositorio despues que agregue, modifique o eliminie archivos, seria (esto es muy basico, hay más)
 ```
 $ git add *
@@ -124,5 +127,3 @@ $ git push origin master
 
 ```
 
-
-![Texto alternativo](images/Selección_008.jpg "SSH key github")
