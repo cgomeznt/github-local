@@ -53,7 +53,22 @@ $ cat /home/cgome1/.ssh/id_rsa.pub
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4Q7vG98bXPbo9TsBZt0CKfHV1W92+MnOpHc2NyIa1kVZLLzsk0a/703bxYJHmBK9uZic60vOrRINPr8PnLNR//qBx/eMQZNF/d+XCSvsbUm+w73uMCdy7H4hXiTrSqjFeTlE1e/7fJGMBVNX6qJVYomrcR+haRD+EitUkxWRr2hKtLr36F6FP17JFoXyVW+CBuKuDJNn0I5bDGYiZDK881IuAA/lIFFwSTtbalYSMNoJlFU0b5AFtyGgb2B3t2p/aPNCCIU3QifzWV9GqtO7Al5NxVd4D3++82OkvMhlFROE4iKuxygRian5JbApz5ZRr7ogkAt8sIK6S8sLaQ0Jv cgomezn.stack@gmail.com
 ```
 
+En https://github.com nos registramso y creamos un repositorio.
+
+![Texto alternativo](images/Selección_001.jpg "Inicio github")
+
+![Texto alternativo](images/Selección_002.jpg "Nuevo repositorio github")
+
+![Texto alternativo](images/Selección_003.jpg "Nombre repositorio github")
+
+![Texto alternativo](images/Selección_004.jpg "Ruta repositorio github")
+
 Nos vamos a  https://github.com y en la parte superior buscamos el menu de **Setting**, seleccionamos **SSH and GPG keys** y al lado pulsamos **New SSH key**, en **title** colocamos un titulo que permita identificar cual es el equipo y en **Key** colocamos el contenido copiado anteriormente con el comando "cat /home/cgome1/.ssh/id_rsa.pub"
+
+![Texto alternativo](images/Selección_005.jpg "Setting github")
+
+![Texto alternativo](images/Selección_007.jpg "SSH key github")
+
 
 Ahora en nuestro directorio de trabajo y en donde estara nuestro repositorio concatenado con el que esta publicado den github.
 ```
@@ -72,7 +87,7 @@ $ git add README.md
 
 Hacemos el comentario sobre los archivos agregados.
 ```
-git commit -m "Actualizacion"
+git commit -m "Actualizar"
 ```
 
 Debemos tener la ruta de nuestro repositorio en https://github:
@@ -82,12 +97,12 @@ Procedemos a indicarle a git cual sera el origen del repositorio remoto
 ```
 git remote add origin https://github.com/cgomeznt/github-local.git
 ```
-Si ya tenemos alguna informacion en el repositorio de github hacemos primero.
+Si ya tenemos alguna informacion en el repositorio de github hacemos primero, para hacer el merge.
 ```
 git pull https://github.com/cgomeznt/github-local.git
 ```
 
-Ahora subimos los cambios de nuestro local hacia el repositorio en github
+Ahora subimos los cambios de nuestro local hacia el repositorio en github, coloca tu usuario y clave de github.
 ```
 $ git push origin master
 ```
