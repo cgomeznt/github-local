@@ -51,10 +51,10 @@ Luego nos copiamos el contenido generado de la llave
 $ cat /home/cgome1/.ssh/id_rsa.pub
 
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4Q7vG98bXPbo9TsBZt0CKfHV1W9
-2+MnOpHc2NyIa1kVZLLzsk0a/703bxYJHmBK9uZic60vOrRINPr8PnLNR//qBx/eMQZNF/d+XCSvsbU
-m+w73uMCdy7H4hXiTrSqjFeTlE1e/7fJGMBVNX6qJVYomrcR+haRD+EitUkxWRr2hKtLr36F6FP17JFoXyVW+CBuKuDJNn0I5bDGYiZDK881IuAA
+2+MnOpHc2NyIa1kVZLRINPr8PnLNR//qBx/eMQZNF/d+XCSvsbU
+m+w73uMCdy7H4hXiTrSqjFeTlE1e/7fJWRr2hKtLr36F6FP17JFoXyVW+CBuKuDJNn0I5bDGYiZDK881IuAA
 /lIFFwSTtbalYSMNoJlFU0b5AFtyGgb2B3t2p/aPNCCIU3QifzWV9GqtO7Al5NxVd4D3
-++82OkvMhlFROE4iKuxygRian5JbApz5ZRr7ogkAt8sIK6S8sLaQ0Jv cgomezn.stack@gmail.com
+++82OkvMhlFROE4iKuxyg8sIK6S8sLaQ0Jv cgomezn.stack@gmail.com
 
 ```
 
