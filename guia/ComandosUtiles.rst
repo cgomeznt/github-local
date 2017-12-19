@@ -39,6 +39,7 @@ La Brújula.
 
 Branches.
 ++++++++++
+::
 
 	git branch: Para ver en que branch estas trabajando.
 	git branch [name]: Para crear un branch nuevo. Asegurar de usar git checkout para camibar al branch.
